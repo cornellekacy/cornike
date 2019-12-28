@@ -1,0 +1,1 @@
+<?php $link = mysqli_connect("localhost", "wyqfzhmarf", "7FzS7WPWzx", "wyqfzhmarf"); ?>
