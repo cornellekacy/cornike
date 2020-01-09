@@ -304,8 +304,8 @@
 </div><br>
 </div>
 <br><br>
-<!-- <h1 align="center"><a href="map.php?id=<?php echo $row["track_id"]; ?>">View Map Here</a></h1> -->
-<h1 align="center"><a href="#">View Map Here</a></h1>
+<h1 align="center"><a href="map.php?id=<?php echo $row["track_id"]; ?>">View Map Here</a></h1>
+<!-- <h1 align="center"><a href="#">View Map Here</a></h1> -->
 
 
 
