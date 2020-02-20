@@ -79,7 +79,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-6">
 						<div class="copyright-info">
-							<span>Copyright © 2020 Cornike. All Rights Reserved.</span>
+							<span>Copyright © 2020 Minext Forwarding Logistics. All Rights Reserved.</span>
 						</div>
 					</div>
 
