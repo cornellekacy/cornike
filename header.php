@@ -69,7 +69,7 @@
 				<div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
 					<ul class="top-info">
 						
-						<li><i class="fa fa-envelope-o">&nbsp;</i><p class="info-text">cornikelogisticsshippers@gmail.com</p></li>
+						<li><i class="fa fa-envelope-o">&nbsp;</i><p class="info-text">minextforwardinglogistics@gmail.com</p></li>
 						<a href="backend/index.php" style="color: #fff"><li><i class="fa fa-user">&nbsp;</i><p class="info-text">Login</p></li></a>
 					</ul>
 				</div><!--/ Top info end -->
@@ -118,7 +118,7 @@
 							<li>
 								<div class="info-box"><span class="info-icon"><i class="fa fa-map-marker">&nbsp;</i></span>
 									<div class="info-box-content">
-										<p class="info-box-title">Find Us</p>
+										<p class="info-box-title">Conatact Us</p>
 										<p class="info-box-subtitle">New York, NY 2034</p>
 									</div>
 								</div>

@@ -29,14 +29,14 @@ $mail->Password = "cornellekacy456";
     //Use a fixed address in your own domain as the from address
     //**DO NOT** use the submitter's address here as it will be forgery
     //and will cause your messages to fail SPF checks
-    $mail->setFrom('from@example.com', 'Cornike Logistics');
+    $mail->setFrom('from@example.com', 'Minext Forwarding Logistics');
     //Send the message to yourself, or whoever should receive contact for submissions
-    $mail->addAddress('support@cornikelogistics.net', 'Contact Cornike Logistics');
+    $mail->addAddress('minextforwardinglogistics@gmail.com', 'Minext Forwarding Logistics');
     //Put the submitter's address in a reply-to header
     //This will fail if the address provided is invalid,
     //in which case we should ignore the whole request
     if ($mail->addReplyTo($_POST['email'], $_POST['name'])) {
-        $mail->Subject = 'Cornike Logistics';
+        $mail->Subject = 'Minext Forwarding Logistics';
         //Keep it simple - don't use HTML
         $mail->isHTML(false);
         //Build a simple message body
