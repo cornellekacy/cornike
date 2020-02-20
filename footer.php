@@ -35,7 +35,7 @@
 				<div class="row">
 					<div class="col-md-4 col-sm-12 footer-widget footer-about">
 						<h3 class="widget-title">About Us</h3>
-						<img class="footer-logo" src="images/footer-logo.png" alt="" />
+						<img class="footer-logo" src="images/footer-logo1.png" alt="" />
 						<p>we provide logistics services and quality deivery services around the globe. we work 24/7 and we have the best support team.</p>
 						<div class="footer-social">
 							<ul>

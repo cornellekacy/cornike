@@ -26,7 +26,7 @@
 			<div class="row text-center">
 				<h2 class="border-title">What People Said</h2>
 				<p class="border-sub-title">
-					Cornike has a very broad customer base, and over the years our customers have come back to testify for the quality services we gave them
+					Minext Forwarding Logistics has a very broad customer base, and over the years our customers have come back to testify for the quality services we gave them
 				</p>
 			</div><!--/ Title row end -->
 

@@ -7,7 +7,7 @@
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title>Cornike transport & Logistics - Home</title>
+	<title>Minext Forwarding Logistics - Home</title>
 
 	<!-- Mobile Specific Metas
 	================================================== -->
@@ -109,7 +109,7 @@
 				<div class="logo-area clearfix">
 					<div class="logo col-xs-12 col-md-3">
 						 <a href="index.php">
-							<img src="images/logo.png" alt="">
+							<img src="images/logo1.png" height="80" alt="">
 						 </a>
 					</div><!-- logo end -->
 

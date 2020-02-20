@@ -89,7 +89,7 @@
 						</div>
 						<div class="ts-feature-content">
 							<h3 class="feature-box-title">Global Coverage</h3>
-							<p>You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like. Lorem ipsum dolor sit amet integer suscipit.</p>
+							<p>You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like. </p>
 							<p><a class="learn-more" href="#"><i class="fa fa-caret-right"></i> Learn More</a></p>  
 						</div>
 					</div><!-- Feature2 end -->
@@ -102,7 +102,7 @@
 						</div>
 						<div class="ts-feature-content">
 							<h3 class="feature-box-title">Cost Savings Solutions</h3>
-							<p>You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like. Lorem ipsum dolor sit amet integer suscipit.</p>
+							<p>You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like. </p>
 							<p><a class="learn-more" href="#"><i class="fa fa-caret-right"></i> Learn More</a></p>  
 						</div>
 					</div><!-- Feature3 end -->
@@ -221,8 +221,8 @@
 							<img class="img-responsive pull-left" src="images/services/service1.jpg" alt="" />
 							<div class="tab-content-text clearfix">
 								<h3 class="border-title border-left">Service Details</h3>
-								<p>We have logistic services in the nation, whether it is freight transportation, supply chain solutions, warehousing and distribution, customer resource area services, customs, security and insurance, temperature controlled logistics. Nam scelerisque tristique dolor vitae tincidunt. Aenean quis massa uada mi elementum elementum.</p>
-								<p>Mec tincidunt nunc posuere ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo iaculis ligula, ac dapibus quam ornare ut.</p>
+								<p>We have logistic services in the nation, whether it is freight transportation, supply chain solutions, warehousing and distribution, customer resource area services, customs, security and insurance, temperature controlled logistics. </p>
+								
 								<ul class="list-check">
 									<li>We have express solutions</li>
 									<li>You can choose premium economy</li>
@@ -238,7 +238,7 @@
 							<div class="tab-content-text clearfix">
 								<h3 class="border-title border-left">Service Details</h3>
 								<p>Mec tincidunt nunc posuere ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo iaculis ligula, ac dapibus quam ornare ut.</p>
-								<p>We have logistic services in the nation, whether it is freight transportation, supply chain solutions, warehousing and distribution, customer resource area services, customs, security and insurance, temperature controlled logistics. Nam scelerisque tristique dolor vitae tincidunt. Aenean quis massa uada mi elementum elementum.</p>
+								<p>We have logistic services in the nation, whether it is freight transportation, supply chain solutions, warehousing and distribution, customer resource area services, customs, security and insurance, temperature controlled logistics.</p>
 								<ul class="list-check">
 									<li>We have express solutions</li>
 									<li>You can choose premium economy</li>
@@ -389,7 +389,7 @@
 				<div class="col-md-6">
 					<h3 class="border-title border-left">Get a Quick Quote</h3>
 
-					<form id="contact-form" action="http://themewinter.com/html/cornike/logistic/contact-form.php" method="post" role="form">
+					<form id="contact-form" action="" method="post" role="form">
 						<div class="error-container"></div>
 						<div class="row">
 							<div class="col-xs-12 col-md-6">

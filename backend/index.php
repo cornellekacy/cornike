@@ -90,7 +90,7 @@ $password = mysqli_real_escape_string($link, $password);
     }
 }
 ?>
-                                <p align="center"><img src="../images/logo.png"></p>
+                                <p align="center"><img src="../images/logo1.png"></p>
                                 
                                 <h4>Welcome Please login bellow</h4>
                                 <form method="post">
