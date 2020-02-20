@@ -15,15 +15,19 @@
                 </ol>
             </div>
         </div>
-        <?php
-/**
- * This example shows how to handle a simple contact form.
- */
-
-//Import PHPMailer classes into the global namespace
+    <?php
+// Import PHPMailer classes into the global namespace
+// These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
-$msg = '';
-//Don't run this unless we're handling a form submission
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+// Load Composer's autoloader
+require 'autoload.php';
+
+// Instantiation and passing `true` enables exceptions
+$mail = new PHPMailer(true);
+
 if (array_key_exists('email', $_POST)) {
     date_default_timezone_set('Etc/UTC');
     require 'autoload.php';
@@ -32,6 +36,7 @@ if (array_key_exists('email', $_POST)) {
     //Tell PHPMailer to use SMTP - requires a local mail server
     //Faster and safer than using mail()
     $mail->isSMTP();
+     // $mail->SMTPDebug = SMTP::DEBUG_SERVER; 
 $mail->SMTPSecure = 'tls';
 $mail->Host = 'smtp.gmail.com';
 $mail->Port = 587;
@@ -40,18 +45,18 @@ $mail->SMTPAuth = true;
 //Username to use for SMTP authentication - use full email address for gmail
 $mail->Username = "cornellekacy4@gmail.com";
 //Password to use for SMTP authentication
-$mail->Password = "cornellekacy456";
+$mail->Password = "cornellekacy45";
     //Use a fixed address in your own domain as the from address
     //**DO NOT** use the submitter's address here as it will be forgery
     //and will cause your messages to fail SPF checks
-    $mail->setFrom('from@example.com', 'Cornike Logistics');
+    $mail->setFrom('cornellekacy4@gmail.com', 'Minext Forwarding Logistics Inc');
     //Send the message to yourself, or whoever should receive contact for submissions
-    $mail->addAddress($_POST['email'], 'Cornike Logistics');
+    $mail->addAddress($_POST['email'], 'Minext Forwarding Logistics Inc');
     //Put the submitter's address in a reply-to header
     //This will fail if the address provided is invalid,
     //in which case we should ignore the whole request
-    if ($mail->addReplyTo($_POST['email'], $_POST['name'])) {
-        $mail->Subject = 'Cornike Logistics Shipping Worldwide';
+    if ($mail->addReplyTo($_POST['email'], $_POST['jkname'])) {
+        $mail->Subject = 'Minext Forwarding Logistics Inc';
         //Keep it simple - don't use HTML
         $mail->isHTML(true);
            $mail->AddEmbeddedImage('bar.png', 'logoimg', 'bar.png');
@@ -67,11 +72,11 @@ $mail->Password = "cornellekacy456";
                       <h3>Tracking No :  $jkt    </h3>  
                     <img src=\"cid:logoimg\" />
                     <br><br>
-                    https://www.cornikelogistics.net/track.php
+                    https://www.minextforwardinglogistics.comt/track.php
                     <br><br><br><br>
-                    <P style='font-size: 11px;'>This invoice  is processed by Cornike Logistics Worldwide Shipping, Inc.  1289 Franklin Street <br>
+                    <P style='font-size: 11px;'>This invoice  is processed by Minext Forwarding Logistics Inc.  1289 Franklin Street <br>
 Greensboro AL ,USA . If you need more information, please contact contact@cornikelogistics.net</P>
-<P style='font-size: 11px;'>By using our  services, you agree to cornikelogistics.net  Privacy Notice and Conditions of Use.</P>
+<P style='font-size: 11px;'>By using our  services, you agree to minextforwardinglogistics.com  Privacy Notice and Conditions of Use.</P>
 <P style='font-size: 11px;'>This email was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message</P>
                         ";
         //Send the message, check for errors
