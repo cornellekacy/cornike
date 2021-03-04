@@ -38,18 +38,18 @@ if (array_key_exists('email', $_POST)) {
     $mail->isSMTP();
      // $mail->SMTPDebug = SMTP::DEBUG_SERVER; 
 $mail->SMTPSecure = 'tls';
-$mail->Host = 'smtp.gmail.com';
+$mail->Host = 'premium42.web-hosting.com';
 $mail->Port = 587;
 //Whether to use SMTP authentication
 $mail->SMTPAuth = true;
 //Username to use for SMTP authentication - use full email address for gmail
-$mail->Username = "cornellekacy4@gmail.com";
+$mail->Username = "contact@minextforwardinglogistics.com";
 //Password to use for SMTP authentication
-$mail->Password = "cornellekacy45";
+$mail->Password = "minextforwarding45";
     //Use a fixed address in your own domain as the from address
     //**DO NOT** use the submitter's address here as it will be forgery
     //and will cause your messages to fail SPF checks
-    $mail->setFrom('cornellekacy4@gmail.com', 'Minext Forwarding Logistics Inc');
+    $mail->setFrom('contact@minextforwardinglogistics.com', 'Minext Forwarding Logistics Inc');
     //Send the message to yourself, or whoever should receive contact for submissions
     $mail->addAddress($_POST['email'], 'Minext Forwarding Logistics Inc');
     //Put the submitter's address in a reply-to header
